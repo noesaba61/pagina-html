@@ -1,0 +1,36 @@
+h1 {
+    font-family: "cursiv", "sans-serif";
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(204, 140, 21);
+}
+
+.camisetas {
+    color: rgb(138, 91, 22);
+}
+
+.pantalones {
+    color: rgb(77, 62, 39);
+}
+
+.vestidos {
+    color: rgb(90, 90, 50);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+}
+
+.horizontal-list {
+    list-style: none;
+    margin: 30;
+    display: flex;
+}
+
+.horizontal-list li {
+    margin: 30px;
+    flex-grow: 1;
+    text-align: center;
+}
