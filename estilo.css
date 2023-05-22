@@ -34,3 +34,13 @@ nav ul {
     flex-grow: 1;
     text-align: center;
 }
+.horizontal1-list {
+    list-style: none;
+    margin: 30;
+    display: flex;
+}
+
+.horizontal1-list li {
+    margin: 50px;
+    text-align: center;
+}
