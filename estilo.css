@@ -2,14 +2,32 @@ h1 {
     font-family:"cursive";
     margin: auto;
     padding: 10px;
-    color: rgb(204, 140, 21);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 50px;
+    background-color: rgb(245, 227, 233);
+    border-bottom: 5px solid white;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    width: 94%;
+    background-color: rgb(245, 245, 227);
+    font-family:"cursive";
+    text-align: center;
+}
+.textdiv{
+    width: 33%;
+    height: auto;
 }
 nav ul {
     list-style-type: none;
     margin: 10;
     padding: 0;
+}
+.img1{
+    border-radius: 100px 10px;
 }
 .wrapper{
     display:grid;
@@ -18,50 +36,40 @@ nav ul {
     grid-auto-rows: minmax(50px, auto);
     padding:10%;
 }
+.uno{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
+.dos{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.tres{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.cuatro{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    background-color: rgb(245, 227, 233);
+    border-radius: 500px 500px;
+}
+.cinco{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-color: rgb(245, 227, 233);
+    border-radius: 500px 500px;
+}
+.seis{
+    grid-column: 2/4;
+    grid-row: 3/4;
+    background-color: rgb(245, 227, 233);
+    border-radius: 500px 500px;
+}
 .borde{
     padding: 7%;
     margin: 5%;
     background-color: rgb(145, 114, 121);
     text-align: center;
    }
-.uno{
-    grid-column: 1/2;
-    grid-row: 1/2;
-    background-color: rgb(94, 155, 139);
-}
-.dos{
-    grid-column: 3/4;
-    grid-row: 2/3;
-    background-color: rgb(134, 106, 106);
-}
-.tres{
-    grid-column: 1/2;
-    grid-row: 3/4;
-    background-color: rgb(98, 87, 148);
-}
-.cuaro{
-    grid-column: 2/4;
-    grid-row: 1/2;
-    background-color: rgb(75, 29, 44);
-}
-.cinco{
-    grid-column: 1/3;
-    grid-row: 5/6;
-    background-color: rgb(0, 0, 0);
-}
-.seis{
-    grid-column: 2/3;
-    grid-row: 5/6;
-    background-color: rgb(0, 0, 0);
-}
-
-(!  <div class="borde">
-<p><a href="#camisetas">Camisetas</a></P>
-</div>      
-<div class="borde">
- <P><a href="#pantalones">Pantalones</a></P> 
-</div>
-<div class="borde">
-<P><a href="#vestidos">Vestidos</a></P>
-</div>   
-</div>)
